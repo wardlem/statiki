@@ -1,0 +1,14 @@
+package main
+
+// Category is a special, default taxonomy.
+// Categories are created by the directory structure in the input directory,
+// though this can be overwritten in a configuration file within a directory,
+// and through the frontmatter in a document.
+// Each page has exactly one category.
+// Categories can have super and sub categories.
+// All categories descend from the base page category.
+type Category interface {
+    Taxonomy
+    Super() Category
+    Sub() []Category
+}
