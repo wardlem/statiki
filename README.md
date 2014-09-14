@@ -12,10 +12,11 @@ Because none of them work the way I want them to.
 
 ## Features
 
-1. Automatic generation of listing pages
+1. Automatic generation of list pages
 2. Custom taxonomies
 3. Full text search functionality (with javascript)
 4. Templates built with [amber](https://github.com/eknkc/amber)
+5. An extendable markdown parser (eventually)
 
 ## Progress
 
